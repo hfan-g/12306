@@ -20,7 +20,7 @@ def sendEmail(msg):
         try:
             sender = email_conf["email_conf"]["email"]
             receiver = email_conf["email_conf"]["notice_email_list"]
-            subject = '恭喜，您已订票成功'
+            subject = '恭喜，您已订票成功,快点去支付！'
             username = email_conf["email_conf"]["username"]
             password = email_conf["email_conf"]["password"]
             host = email_conf["email_conf"]["host"]
